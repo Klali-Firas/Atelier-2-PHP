@@ -15,6 +15,7 @@
             $inp=$_POST['inp'];
             $tab= explode(" ",$inp);
             foreach($tab as $t){
+                if($t)
                 echo strtoupper($t[0]);
             }
         }
